@@ -5156,11 +5156,11 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .section_subscribe.parallax {
-	background-image: url("http://vpchiptuning.com/html/img/featured.jpg");
+	background-image: url("http://vpchiptuning.com/img/featured.jpg");
 }
 
 .page_breadcrumbs.parallax {
-	background-image: url("http://vpchiptuning.com/html/img/breadcrumbs1.jpg");
+	background-image: url("http://vpchiptuning.com/img/breadcrumbs1.jpg");
 }
 
 .page_breadcrumbs.parallax.template_breadcrumbs:before, .page_breadcrumbs.parallax.template_breadcrumbs:after {
@@ -5172,11 +5172,11 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_testimonials.parallax {
-	background-image: url("http://vpchiptuning.com/html/img/testimonials.jpg");
+	background-image: url("http://vpchiptuning.com/img/testimonials.jpg");
 }
 
 .counters_section.parallax {
-	background-image: url("http://vpchiptuning.com/html/img/featured.jpg");
+	background-image: url("http://vpchiptuning.com/img/featured.jpg");
 }
 
 .page_footer.color + .page_copyright.color .container {
