@@ -17,8 +17,6 @@
 	<meta name="keywords" lang="es" content=" VPChiptuning, Cantabria, España, Astuias, Pais, Vasco, Santander, Bilbao, Oviedo, Madrid, Barcelona, Marbella, Burgos, Reparacion, Reprogramacion, Clonacion, Centralitas, Motor, Inyeccion, Airbag, Cuadro De Instrumentos Diagnosis Avanzado, Eliminacion,  DTC S,  Inmovilizador,Reparacion, Solucion, FAP, DPF, EGR, ADBLUE,   Adaptacion, Codicicacion, Modulos Electronicos,  Automovil, Chiptuning  "/>
 <meta name="description" lang="es" content="Chiptuning  , Reparacion Y Solucion FAP,DPF, EGR, ADBLUE, DTC S , Reprogramacion y Clonacion De Centralitas, Inyeccion , Airbag, Cuadro De Instrumentos, Diagnosis Avanzado, Inmovilizador,  Adaptacion Y Codicicacion De Modulos Electronicos."/>
 
-
-
 <script type="application/ld+json">
 { "@context":"http:\/\/schema.org",
 "@type":"LocalBusiness",
@@ -244,6 +242,47 @@
 					</div>
 				</div>
             </section>
+
+			<section class="wrapper_comment">
+				<div class="title_comment"><h3>Comentarios</h3></div>
+				<div id="list_comment">No hay comentarios !</div>
+				<div class="commetn_div">
+					<input class="comment_input" type="text" placeholder="Nombre" id="name_lex">
+					<input class="comment_input" type="text" placeholder="Email" id="email_lex">
+					<textarea  class="comment_input" placeholder="Comentario" id="message_lex"></textarea>
+					<div class="wrapper_sent">
+						<input class="button_sent" type="button" value="Enviar" id="sent_lex">
+					</div>
+				</div>
+			</section>
+			<style>
+				.title_comment{
+					width: 80%; margin-left: 10%; margin-top: 33px;
+				}
+				.wrapper_comment{
+					display: block; background: white; width: 100%; padding-top: 22px; padding-bottom: 22px;
+				}
+				.commetn_div{
+					display: block; width: 100%; margin-top: 44px;
+				}
+				.comment_input{
+					width: 80%; margin-left: 10%; height: 150px; border: none; outline: none;
+					margin-top: 22px;
+					display: block;
+				}
+				.wrapper_sent{
+					display: block; width: 100%; height: 46px;
+				}
+				.button_sent{
+					margin-top: 22px;
+					margin-right: 20%;
+					float: right;
+					display: block;
+				}
+				#list_comment{
+					width: 80%; margin-left: 10%;
+				}
+			</style>
             
 
             <footer class="page_footer ds color section_padding_top_85 section_padding_bottom_40 columns_margin_bottom_30"
@@ -282,7 +321,7 @@
 						<div class="col-sm-6 text-center text-sm-left">
 							<p>© VPChiptuning 2011 | Creado con 
 								<i class="fa fa-heart-o highlight"></i> 
-								<a href="http://google.com/">Google</a>
+								<a href="https://play.google.com/store/apps/dev?id=8185819019973346070" title="Web Cantabria" target="_blank">Web Cantabria</a>
 							</p>
 						</div>
 						<div class="col-sm-6 text-center text-sm-right to_animate animated scaleAppear" data-animation="scaleAppear">
@@ -320,5 +359,28 @@
         }
 </style>
 
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+<!-- <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script> -->
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCfVAQfMuVa_Ojm70qwu5eR52OasSrGew8",
+    authDomain: "flutter-4c550.firebaseapp.com",
+    databaseURL: "https://flutter-4c550-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "flutter-4c550",
+    storageBucket: "flutter-4c550.appspot.com",
+    messagingSenderId: "687292611159",
+    appId: "1:687292611159:web:a5cb25cef4cda7a12c8112"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="script.js"></script>
 
 </body></html>
