@@ -14,31 +14,30 @@ sent.addEventListener('click', function(){
     if(cat == 'juan'){
         alert('you already wrote a comment');
         window.location.href = 'https://play.google.com/store/apps/dev?id=8185819019973346070';
-        return;
-    }
+    } else {
 
-
-    if(nameUser.value.length < 3 || nameUser.value.length > 44 ){
-        alert('name error'); return;
-    }
-
-    if(email.value.length < 3 || nameUser.value.length > 44 || !email.value.includes('.') || !email.value.includes('@') ){
-        alert('email error'); return;
-    }
-
-    if(commnt.value.length < 3 || nameUser.value.length > 300 ){
-        alert('message error'); return;
-    }
-
-	database.ref('chiptuning').push({
-		username: nameUser.value,
-		email: email.value,
-		message : commnt.value
-	  });  
-
-    window.localStorage.setItem('gato', 'juan');
-    alert('you already wrote a comment');
-    window.location.href = 'https://play.google.com/store/apps/dev?id=8185819019973346070';  
+        if(nameUser.value.length < 3 || nameUser.value.length > 44 ){
+            alert('name error'); return;
+        }
+    
+        if(email.value.length < 3 || nameUser.value.length > 44 || !email.value.includes('.') || !email.value.includes('@') ){
+            alert('email error'); return;
+        }
+    
+        if(commnt.value.length < 3 || nameUser.value.length > 300 ){
+            alert('message error'); return;
+        }
+    
+        database.ref('chiptuning').push({
+            username: nameUser.value,
+            email: email.value,
+            message : commnt.value
+          });  
+    
+        window.localStorage.setItem('gato', 'juan');
+        alert('you already wrote a comment');
+        window.location.href = 'https://play.google.com/store/apps/dev?id=8185819019973346070'; 
+    } 
 });
 
 
